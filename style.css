@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Arimo', sans-serif;
+    color: #DAFFFB;
+    background-color: #001C30;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+    width: 90%;
+    max-width: 700px;
+}
+.container h1{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+.container h1 span{
+    color: #64CCC5;
+    border-bottom: 4px solid #FF9EAA;
+    padding-bottom: 7px;
+}
+.display{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #333;
+    background-color: #64CCC5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 26px 20px;
+    border-radius: 6px;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+.display input{
+    outline: 0;
+    border: 0;
+    width: 90%;
+    font-size: 24px;
+    background-color:#64CCC5 ;
+}
+.container button img{
+    width: 28px;
+    margin-right: 10px;
+}
+.container button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 250px;
+    padding: 15px 5px;
+    border: 0;
+    outline: 0;
+    background-color: #FF2171;
+    color: #FFF;
+    font-size: 22px;
+    border-radius: 6px;
+    transition: 0.5s ease-in-out;
+}
+.container button:hover{
+    background-color: #FF90BB;
+    transition: 0.3s ease-in;
+}
